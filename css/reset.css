@@ -1,0 +1,93 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, input[type="text"], input[type="password"], ins, kbd, q, s, select, samp,
+small, strike, strong, sub, sup, textarea, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+input[type="text"], textarea {
+	outline: none;
+	padding: 3px;
+	margin: 0px;
+	border-top: 1px solid #ABADB3;
+	border-right: 1px solid #E2E3EA;
+	border-bottom: 1px solid #E3E9EF;
+	border-left: 1px solid #E2E3EA;
+	background-color: #fff;
+}
+
+select {
+	outline: none;
+	padding: 2px;
+	margin: 0px;
+	border-top: 1px solid #ABADB3;
+	border-right: 1px solid #E2E3EA;
+	border-bottom: 1px solid #E3E9EF;
+	border-left: 1px solid #E2E3EA;
+	background-color: #fff;
+}
+
+input[type="text"]:focus, select:focus, textarea:focus {
+	border-top: 1px solid #5794BF;
+	border-right: 1px solid #C5DAED;
+	border-bottom: 1px solid #C7E2F1;
+	border-left: 1px solid #C5DAED;
+}
+
+:focus {
+	outline: 0;
+}
+
+ul {
+	margin-left:15px;
+	list-style: disc;
+}
+
+li {
+	margin-top:5px;	
+}
