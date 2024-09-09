@@ -36,7 +36,7 @@
 <div class="main">
 	<div class="sidebar">
 		<ul>
-			<li class="active"><a href="#guidelines">Terms &amp; Conditions</a></li>
+			<li class="active"><a href="#guidelines">Terms &amp; Conditions1</a></li>
 			<li><a href="#documents">Important Documents</a></li>
 		</ul>
 	</div>
